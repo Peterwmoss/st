@@ -17,6 +17,7 @@ static int borderpx = 6;
  * 5: value of shell in config.h
  */
 static char *shell = "/bin/sh";
+char *scroll = NULL;
 char *utmp = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
