@@ -45,6 +45,8 @@ int allowaltscreen = 1;
 static unsigned int xfps = 120;
 static unsigned int actionfps = 30;
 
+static double minlatency = 8;
+static double maxlatency = 33;
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
